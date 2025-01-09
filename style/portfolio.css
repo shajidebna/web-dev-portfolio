@@ -11,6 +11,23 @@
   .dark-2 {
     color: #474747;
   }
+  .secondery-bg {
+    background-color: #FFF8F3;
+  }
+
+  /* main styles */
+  main {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  /* about styles */
+  .about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+  }
 
 /* nav styles */
 nav {
@@ -76,4 +93,13 @@ nav li a {
 }
 .banner-profile-pic {
     width: 585px;
+}
+
+.item-description {
+    font-weight: 600;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
 }
